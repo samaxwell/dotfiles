@@ -2,6 +2,10 @@
 
 alias cp='cp -v'
 alias mv='mv -iv'
-alias cl='clear && ls -l'
+#alias cl='clear && ls -l'
+
+# ColorLs
+alias cls='colorls'
+alias cl='clear && colorls -l --sd --gs'
 
 
